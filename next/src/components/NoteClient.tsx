@@ -1,7 +1,7 @@
 import Form from "./Form"
 import Notes from "./Notes"
 
-const NoteClient = () => {
+const NoteClient = async () => {
   
   return (
     <div className="flex gap-5">

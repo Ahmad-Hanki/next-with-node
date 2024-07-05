@@ -1,7 +1,7 @@
-import { Router, Request, Response } from 'express';
+import { Router } from "express";
+import addNote from "../middlewares/addNote";
+const router = Router();
 
-const AddNoteRoute = () => {
+const addNoteRouter = router.post("/note", addNote);
 
-}
-
-export default AddNoteRoute
+export default addNoteRouter;
